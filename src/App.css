@@ -35,6 +35,7 @@ a:hover {
 }
 .about {
   text-align: center;
+  margin: 0 auto;
   width: 60%;
 }
 .about span {

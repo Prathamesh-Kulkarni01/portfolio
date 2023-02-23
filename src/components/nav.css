@@ -33,7 +33,7 @@
   #mobile_nav>div>ul{
     align-items: center;justify-content: center;margin-top: 200px
   }
-  #mobile_nav>div>ul>a{
+  .mobLink{
     font-size: 24px;display: inline;display: flex; color: black; text-align: center;margin: 15px 80px 
   }
 
