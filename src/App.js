@@ -12,11 +12,13 @@ import Nav from './components/Nav';
 function App(){
   return (
     <div className="App">
+
  <Nav></Nav>
-      {/* <BrowserRouter>
+ {/* <Home></Home> */}
+      <BrowserRouter>
       <Routes>
-        <Nav></Nav>
-        <Route exact path="/" element={<Home></Home>}/>
+
+        <Route  path="/" element={<Home></Home>}/>
         
           <Route path="blogs" element={<Blog></Blog>} />
           <Route path="contact" element={<Contacts></Contacts>} />
@@ -25,7 +27,7 @@ function App(){
      
       
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
     </div>
   );
 }
